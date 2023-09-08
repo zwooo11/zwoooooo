@@ -12,3 +12,31 @@ header {
     text-align: center;
     padding: 20px;
 }
+
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* 메뉴 스타일 */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* 링크 색상 지정 */
+    font-weight: bold;
+}
+
+/* 섹션 스타일 */
+section {
+    padding: 40px;
+}
