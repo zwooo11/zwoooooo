@@ -5,3 +5,10 @@ body {
   padding: 0;
 }
 
+/* 헤더 스타일 */
+header {
+    background-color: #F6CECE; /* 헤더 배경색 지정 */
+    color: #000000; /* 글자 색상 지정 */
+    text-align: center;
+    padding: 20px;
+}
