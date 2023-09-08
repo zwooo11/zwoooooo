@@ -1,40 +1,70 @@
-/* 기본 스타일 */
+/* 전체 페이지 스타일링 */
 body {
-  font-family: arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 /* 헤더 스타일 */
 header {
-    background-color: #F6CECE; /* 헤더 배경색 지정 */
-    color: #000000; /* 글자 색상 지정 */
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 20px;
 }
-
 
 header h1 {
     margin: 0;
     font-size: 36px;
 }
 
-/* 메뉴 스타일 */
-nav ul {
-    list-style-type: none;
-    padding: 0;
+/* 네비게이션 메뉴 스타일 */
+nav {
+    text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
+nav a {
     text-decoration: none;
-    color: #fff; /* 링크 색상 지정 */
+    color: #fff;
+    margin: 0 10px;
     font-weight: bold;
 }
+
+/* 섹션 스타일 */
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+/* 이미지 스타일 */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 링크 스타일 */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 /* 섹션 스타일 */
 section {
