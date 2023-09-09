@@ -1,6 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F6CECE;
+    font-size: 30px;
+}
+
+div {
+    color: #F6CECE;
+    font-size: 1em;
+    font-weight: bold
+    text-align: center;
 }
