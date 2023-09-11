@@ -12,6 +12,7 @@ header {
     background-color: #F6CECE;
     color: white;
     padding: 20px;
+    position: fixed;
 }
 
 header h1 {
