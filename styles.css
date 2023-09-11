@@ -8,6 +8,10 @@ body {
 
 /* 헤더 스타일 */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #F5A9A9;
     color: white;
     padding: 20px;
@@ -36,12 +40,25 @@ nav a {
     font-weight: bold;
 }
 
+nav ul li {
+    color: #F78181;
+}
+
 /* 섹션 스타일 */
 div[id^="section"] {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+}
+
+div[id^="section"] p {
+    max-width: 80%;
 }
 
 h2 {
