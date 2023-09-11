@@ -94,6 +94,13 @@ p {
     margin-right: 20px; /* 사진과 글 사이 간격 조절 */
 }
 
+#section1 p {
+    max-width: 80%
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
 #section2 {
     background-color: #CEE3F6;
     padding: 140px;
