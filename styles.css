@@ -67,7 +67,7 @@ p {
 
 /* 링크 스타일 (Contact 섹션) */
 #section1 {
-    background-color: #87CEFA;
+    background-color: #FBEFEF;
     display: flex;
     flex-direction: row; /* 가로 방향으로 요소 배치 */
     align-items: center; /* 세로 가운데 정렬 */
@@ -78,7 +78,7 @@ p {
 }
 
 #section2 {
-    background-color: #FFD700;
+    background-color: #CEE3F6;
     display: flex;
     flex-direction: row; /* 가로 방향으로 요소 배치 */
     align-items: center; /* 세로 가운데 정렬 */
@@ -92,7 +92,7 @@ p {
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #98FB98;
+    background-color: #F7F8E0;
 }
 #section3 h2 {
     font-size: 24px;
@@ -124,7 +124,7 @@ p {
 }
 
 #section4 {
-    background-color: #FFA07A; /* 예시로 연핑크색 배경을 지정 */
+    background-color: #E6F8E0; /* 예시로 연핑크색 배경을 지정 */
 }
     
 #section4 a {
@@ -135,7 +135,7 @@ p {
 #section5 {
     text-align: center;
     padding: 50px;
-    background-color: #FFC0CB;
+    background-color: #FDE6C3;
 }
 
 #section5 h2 {
@@ -151,7 +151,7 @@ p {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #A9D0F5;
+    background-color: #F5A9A9;
     color: black;
     text-decoration: none;
     border: none;
@@ -161,5 +161,5 @@ p {
 }
 
 .button:hover {
-    background-color: #2E9AFE;
+    background-color: #F78181;
 }
