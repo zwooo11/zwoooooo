@@ -93,6 +93,7 @@ p {
 
 #section1 h2 {
     flex: 1;
+    margin: 0;
 }
 
 #section1 img {
