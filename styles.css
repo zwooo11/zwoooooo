@@ -92,14 +92,20 @@ p {
 
 #section2 {
     background-color: #CEE3F6;
-    padding: 130px; /* 여백 크기를 80px로 늘립니다. */
+    padding: 130px;
     display: flex;
-    flex-direction: row-reverse; /* 가로 방향으로 요소 배치 */
-    align-items: center; /* 세로 가운데 정렬 */
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 #section2 img {
     margin-left: 70px; /* 사진과 글 사이 간격 조절 */
+}
+
+#section2 h2 {
+    color: #333;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 #section3 {
