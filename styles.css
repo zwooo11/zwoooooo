@@ -80,7 +80,7 @@ p {
 /* 링크 스타일 (Contact 섹션) */
 #section1 {
     background-color: #FBEFEF;
-    padding: 100px; /* 여백 크기를 80px로 늘립니다. */
+    padding: 130px;
     display: flex;
     flex-direction: row; /* 가로 방향으로 요소 배치 */
     align-items: center; /* 세로 가운데 정렬 */
@@ -92,7 +92,7 @@ p {
 
 #section2 {
     background-color: #CEE3F6;
-    padding: 100px; /* 여백 크기를 80px로 늘립니다. */
+    padding: 130px; /* 여백 크기를 80px로 늘립니다. */
     display: flex;
     flex-direction: row-reverse; /* 가로 방향으로 요소 배치 */
     align-items: center; /* 세로 가운데 정렬 */
@@ -107,7 +107,7 @@ p {
     align-items: center;
     text-align: center;
     background-color: #F7F8E0;
-    padding: 100px;
+    padding: 130px;
 }
 
 #section3 h2 {
@@ -141,7 +141,7 @@ p {
 
 #section4 {
     background-color: #E6F8E0; /* 예시로 연핑크색 배경을 지정 */
-    padding: 100px;
+    padding: 130px;
 }
     
 #section4 a {
@@ -151,7 +151,7 @@ p {
 
 #section5 {
     text-align: center;
-    padding: 120px;
+    padding: 160px;
     background-color: #FFFFFF;
 }
 
