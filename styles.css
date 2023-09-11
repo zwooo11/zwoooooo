@@ -15,13 +15,7 @@ header {
     position: fixed;
     top: 0; /* 화면 상단에 고정 */
     width: 100%; /* 화면 너비에 맞춤 */
-    z-index: 1000; /* 다른 요소 위에 표시되도록 z-index 설정 */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 (선택 사항) */
-}
-
-header h1 {
-    margin: 0;
-    font-size: 36px;
 }
 
 /* 네비게이션 메뉴 스타일 */
