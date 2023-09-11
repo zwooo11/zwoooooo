@@ -1,4 +1,11 @@
 /* 전체 페이지 스타일 */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 스크롤 막기 (선택 사항) */
+}
+
 body {
     font-family: 'Roboto Slab', serif;
     background-color: #F8E0E0;
@@ -43,12 +50,12 @@ nav ul li {
 
 /* 섹션 스타일 */
 div[id^="section"] {
+    height: 100%;
     background-color: #FBEFEF;
     padding: 50px;
-    margin: 20px;
+    margin: 0px;
     border-radius: 10px;
     display: flex;
-    align-items: flex-start;
 }
 
 div[id^="section"] h2 {
