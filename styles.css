@@ -62,6 +62,21 @@ p {
 }
 
 /* 링크 스타일 (Contact 섹션) */
+#section3 {
+    text-align: center;
+}
+
+#section3 > div {
+    display: inline-block;
+    vertical=align: top;
+    margin: 20px;
+}
+
+#section3 img {
+    max-width: 100%;
+    height: auto;
+}
+    
 #section4 a {
     color: #007bff;
     text-decoration: none;
