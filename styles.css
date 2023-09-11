@@ -98,7 +98,7 @@ p {
     max-width: 80%
     margin-left: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #section2 {
