@@ -46,11 +46,6 @@ nav ul li {
 
 /* 섹션 스타일 */
 div[id^="section"] {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     padding: 20px;
     margin: 20px;
