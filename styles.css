@@ -190,8 +190,8 @@ p {
 .button1 {
     display: inline-block;
     padding: 40px 80px;
-    background-color: #CEECF5;
-    color: black;
+    background-color: #CED8F6;
+    color: #2E64FE;
     text-decoration: none;
     border: none;
     botder-radius: 5px;
@@ -199,5 +199,5 @@ p {
     font-size: 30px; 
 
 .button1:hover {
-    background-color: #A5DF00;
+    background-color: #A9BCF5;
 }
