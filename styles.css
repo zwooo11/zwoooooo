@@ -112,3 +112,19 @@ p {
     font-size: 18px;
     color: black;
 }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A9D0F5;
+    color: black;
+    text-decoration: none;
+    border: none;
+    botder-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button: hover {
+    background-color: #2E9AFE;
+}
