@@ -8,10 +8,6 @@ body {
 
 /* 헤더 스타일 */
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     background-color: #F5A9A9;
     color: white;
     padding: 20px;
@@ -25,13 +21,7 @@ header h1 {
 /* 네비게이션 메뉴 스타일 */
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
 }
 
 nav a {
