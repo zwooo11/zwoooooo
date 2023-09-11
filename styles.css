@@ -61,6 +61,10 @@ div[id^="section"] p {
     max-width: 80%;
 }
 
+div[id^="section5"] p {
+    font-size: 40px;
+}
+    
 h2 {
     color: #333;
 }
