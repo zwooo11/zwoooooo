@@ -36,7 +36,6 @@ nav ul li {
 
 /* 섹션 스타일 */
 div[id^="section"] {
-    background-color: white;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -63,36 +62,47 @@ p {
 }
 
 /* 링크 스타일 (Contact 섹션) */
-#section3 {
-    text-align: center;
+#section 1 {
+    background-color: #CED8F6;
 }
 
-#section3 > div {
+#section 2 {
+    background-color: #ECCEF5;
+}
+
+#section 3 {
+    text-align: center;
+    background-color: #E3F6CE;
+}
+
+#section 3 > div {
     display: inline-block;
     vertical=align: top;
     margin: 20px;
 }
 
-#section3 omg {
+#section 3 omg {
     max-width: 100%;
     height: auto;
 }
     
-#section4 a {
+#section 4 a {
     color: #007bff;
     text-decoration: none;
+    background-color: #FBD19D;
 }
 
-#section4 a:hover {
+#section 4 a:hover {
     text-decoration: underline;
 }
 
-#section5 {
+#section 5 {
     text-align: center;
     padding: 50px;
+    background-color: #F9FCA4;
 }
 
-#section5 h2 {
+#section 5 h2 {
     font=size: 28px;
     color: black;
 }
