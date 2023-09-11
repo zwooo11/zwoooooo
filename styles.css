@@ -4,7 +4,8 @@ body {
     background-color: #F8E0E0;
     margin: 0;
     padding: 0;
-}
+    text-align: center;
+  }
 
 /* 헤더 스타일 */
 header {
@@ -88,6 +89,7 @@ p {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    vertical-align: top;
 }
 
 #section 3 img {
