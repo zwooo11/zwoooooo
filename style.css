@@ -1,67 +1,72 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-</style>
-
-header{
-  background: #F6CECE;
-  margin: 10px;
-  padding: 20px;
-}
-
-header nav ul{
-  display: flex;
-}
-header nav ul li{
-  list style: none;
-  margin: 10px;
-}
-
+/* 전체 페이지 스타일 */
 body {
-    background-color: #F6CECE;   
+    font-family: 'Playfair Display', serif;
+    background-color: #F8E0E0;
+    margin: 0;
+    padding: 0;
 }
 
-h2{
-    color: #ffffff;
-    text-align: center;
-    font-style: italic;
-    font-weight: lighter;
-    margin-top: 50px;
-    font-size: 20px;
+/* 헤더 스타일 */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
 }
 
-div {
-    color: #F6CECE;
-    font-size: 1em;
-    font-weight: bold
-    text-align: center;
+header h1 {
+    margin: 0;
+    font-size: 36px;
 }
 
-.menu * {
+/* 네비게이션 메뉴 스타일 */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
     display: inline;
+    margin-right: 20px;
 }
 
-.menu li {
-    margin: 35px;
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
-.menu li a {
-    color: rgb(255, 255, 255);
+/* 섹션 스타일 */
+div[id^="section"] {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+}
+
+/* 이미지 스타일 */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* 문단 텍스트 스타일 */
+p {
+    font-size: 18px;
+}
+
+/* 링크 스타일 (Contact 섹션) */
+#section4 a {
+    color: #007bff;
     text-decoration: none;
 }
 
-.menu ul {
-    padding-left: 0px;
-}
-
-.menu {
-    font-size: 20px;
-    font-style: italic;
-    align-items: center;
-    text-align: center;
-    padding-top: 80px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
+#section4 a:hover {
+    text-decoration: underline;
 }
