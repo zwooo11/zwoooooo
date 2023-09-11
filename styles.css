@@ -40,7 +40,7 @@ nav ul li {
 /* 섹션 스타일 */
 div[id^="section"] {
     background-color: #FBEFEF;
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
     border-radius: 10px;
     display: flex;
