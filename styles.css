@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
 /* 헤더 스타일 */
 header {
     background-color: #F6CECE;
