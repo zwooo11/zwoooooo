@@ -36,7 +36,6 @@ nav ul li {
 
 /* 섹션 스타일 */
 div[id^="section"] {
-    background-color: white;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -91,10 +90,6 @@ p {
     color: #007bff;
     text-decoration: none;
     background-color: #FBD19D;
-}
-
-#section 4 a:hover {
-    text-decoration: underline;
 }
 
 #section 5 {
