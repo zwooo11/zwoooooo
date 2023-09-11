@@ -86,7 +86,7 @@ p {
     background-color: #FBEFEF;
     padding: 140px;
     display: flex;
-    flex-direction: row; /* 가로 방향으로 요소 배치 */
+    flex-direction: row-reverse; /* 가로 방향으로 요소 배치 */
     align-items: center; /* 세로 가운데 정렬 */
 }
 
@@ -97,7 +97,7 @@ p {
 }
 
 #section1 p {
-    max-width: 80%
+    max-width: 80%;
     margin-left: 20px;
     display: flex;
     align-items: flex-start;
