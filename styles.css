@@ -17,9 +17,9 @@ header {
     color: white;
     padding: 20px;
     position: fixed;
-    top: 0; /* 화면 상단에 고정 */
-    width: 100%; /* 화면 너비에 맞춤 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 (선택 사항) */
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* 네비게이션 메뉴 스타일 */
@@ -181,7 +181,7 @@ p {
 }
 
 #section4 {
-    background-color: #E6F8E0; /* 예시로 연핑크색 배경을 지정 */
+    background-color: #E6F8E0;
     padding: 70px;
 }
     
